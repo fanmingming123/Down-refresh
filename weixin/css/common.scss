@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  box-sizing:border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+  overflow:hidden;
+}
+body{
+    position: relative;
+}
+i{
+  font-size: .18rem;
+}
+i,b{
+  font-style: normal;
+  font-weight: normal;
+}
+html{
+  font-size: 100px;
+}
+/* @media (max-width: 375px) {
+  html {
+    font-size: 500%;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  html {
+    font-size: 625%;
+  }
+}
+@media (min-width: 414px) and (max-width: 768px) {
+  html {
+    font-size: 750%;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 1000%;
+  }
+} */
+@font-face{
+  font-family: "mm";
+  src:url("../img/icofont/iconfont.ttf"),
+      url("../img/icofont/iconfont.woff");
+}
+@font-face{
+  font-family: "ff";
+  src:url("../img/icofont_o/iconfont.ttf"),
+      url("../img/icofont_o/iconfont.woff");
+}
+@mixin flexbox(){
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-o-flex;
+	display:-ms-flex;
+} 
+@mixin full(){
+	width:100%;
+	height:100%;
+}
+@mixin flex($flex:1){
+	-webkit-flex:$flex;
+}
+@mixin flex-direction($row){
+	-webkit-flex-direction:$row;
+}
+@mixin justify-content($val:left){
+	-webkit-justify-content:$val;
+}
+@mixin align-items($val:left){
+	-webkit-align-items:$val;
+}

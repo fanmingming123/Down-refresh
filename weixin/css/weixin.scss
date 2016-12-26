@@ -1,0 +1,134 @@
+@import "common";
+.wrap{
+	@include full;
+	font-size: .16rem;
+	overflow: hidden;
+	.header{
+		height: .44rem;
+		width: 100%;
+		background: #38383d;
+		margin: 0 0 ;
+		h3{
+			color: #fff;
+			font-size: .16rem;
+			line-height: .44rem;
+			margin: 0 0; 
+		}
+		.title{
+			color: #fff;
+		    font-size: .16rem;
+		    line-height: .44rem;
+		    margin: 0 0;
+		    text-align: center;
+		}
+		.more{
+		    position: absolute;
+		    right: 10px;
+		    top: 0;
+		}
+		span{
+			color: #fff;
+		}
+		i{
+			font-family: "mm";
+			color: #fff;
+			margin-left: .05rem;
+		}
+		.ll{
+			border:none;
+			background: #38383d;
+			font-size: .23rem;
+		}
+		.btn-group{
+			background: #38383d;
+		}
+		.dropdown-menu{
+			left:-.88rem;
+			margin: .11rem 0 0;
+			min-width: 127px;
+			background:#38383d;
+			box-sizing:border-box;
+			a{
+				color: #fff; 
+			}
+		}
+		.dropdown-menu{
+			li{
+				a{
+				 display: inline-block;
+		  		 padding: 4px 16px;
+				}
+			}
+		}
+	}
+	.section{
+		 position: absolute;
+			    top: .44rem;
+			    bottom: .44rem;
+			    width: 100%;
+			    overflow: hidden;
+		.pullDown {
+			   width: 100%;
+			   height: 30px;
+			   line-height: 30px;
+			   text-align: center;
+			}
+		#pullUp{
+			   width: 100%;
+			   height: 30px;
+			   line-height: 30px;
+			   text-align: center;
+			   
+			}
+		dl{
+		  margin:.07rem .07rem;
+		  border-bottom: 1px solid #eee;
+		  padding-bottom:.07rem;
+		 
+		}
+		dt{
+			img{
+				width: .50rem;
+				height: .50rem;
+				margin-left:-.13rem; 
+
+			}
+		}
+		dd{
+			margin-left: -.08rem;
+			p{
+				font-size: .14rem;
+   				margin: 0 0 0;
+
+			}
+			span{
+				font-size: .12rem;
+				color: #eee;
+			}
+		}
+	}
+	.footer{
+		   position: absolute;
+				    bottom: 0;
+				    left: 0;
+				    width: 100%;
+				    height: .44rem;
+				    text-align: center;
+				    border-top: 1px solid #ccc;
+		i{
+			font-family: "mm";
+			color:#fff;
+			font-size: .20rem;
+			color: #000;
+		}
+		a{
+			display: block;
+			text-decoration: none;
+			color: #000;
+			font-size: .12rem;
+		}
+		.bg{
+			color: #1aad19;
+		}
+	}
+}

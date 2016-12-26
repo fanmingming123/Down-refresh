@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+body {
+  position: relative; }
+
+i {
+  font-size: .18rem; }
+
+i, b {
+  font-style: normal;
+  font-weight: normal; }
+
+html {
+  font-size: 100px; }
+
+/* @media (max-width: 375px) {
+  html {
+    font-size: 500%;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  html {
+    font-size: 625%;
+  }
+}
+@media (min-width: 414px) and (max-width: 768px) {
+  html {
+    font-size: 750%;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 1000%;
+  }
+} */
+@font-face {
+  font-family: "mm";
+  src: url("../img/icofont/iconfont.ttf"), url("../img/icofont/iconfont.woff"); }
+@font-face {
+  font-family: "ff";
+  src: url("../img/icofont_o/iconfont.ttf"), url("../img/icofont_o/iconfont.woff"); }
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 2; }
+
+/*# sourceMappingURL=gut.css.map */

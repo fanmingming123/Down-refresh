@@ -1,0 +1,19 @@
+@import "common";
+  .swiper-container {
+       @include full;
+    }
+   .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        img{
+        	@include full;
+        	background-size:100% 100%;
+        }
+       }
+       .mark{
+       		@include full;
+       		background: #000;
+       		opacity: 0.6;
+      	 	z-index: 2;
+       }
